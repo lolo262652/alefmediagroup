@@ -1,8 +1,26 @@
-# ALEF MEDIA GROUP - Copie Conforme à l'Identique
+# ALEF MEDIA GROUP (AMG) - Développement & Formations
 
-Ce projet est la copie 100% autonome et fidèle à l'identique du site [https://www.alefmediagroup.com/](https://www.alefmediagroup.com/).
+Ce projet est la copie 100% autonome, réactive et fidèle à l'identique du site [https://www.alefmediagroup.com/](https://www.alefmediagroup.com/).
 
-## 📁 Architecture du projet
+---
+
+## 🎨 Aperçu des Animations 3D & Visuels
+
+Les animations 3D fluides (formes géométriques en rotation) intégrées au site :
+
+<div align="center">
+  <img src="assets/images/animation-3d-torus.gif" width="280" alt="Animation 3D Torus" />
+  <img src="assets/images/animation-3d-sphere.gif" width="280" alt="Animation 3D Sphère" />
+  <img src="assets/images/animation-3d-cube.gif" width="280" alt="Animation 3D Géométrie" />
+</div>
+
+<div align="center">
+  <sub>Formes 3D animées abstraites intégrées en local et synchronisées sur GitHub</sub>
+</div>
+
+---
+
+## 📁 Architecture du Projet
 
 ```
 c:\alefmediagroup\
@@ -14,10 +32,19 @@ c:\alefmediagroup\
 ├── sitemap.xml                    # Sitemap XML officiel
 ├── searchIndex-RcGsCp8zDJNg.json  # Index de recherche Framer
 └── assets\
-    ├── images\                    # Ensemble des médias (GIFs 3D animés, icônes PNG, favicon)
-    ├── fonts\                     # Ensemble des polices typographiques (Caprasimo, JetBrains Mono, Inter, Barcode)
+    ├── images\                    # Médias & GIFs 3D animés (torus, sphere, cube, logo pin, etc.)
+    │   ├── animation-3d-torus.gif
+    │   ├── animation-3d-sphere.gif
+    │   ├── animation-3d-cube.gif
+    │   ├── NmcynsjMQF6a2CPAvkeTlYv9WCs.gif
+    │   ├── t0dKOnLrsxOlwzG29OJyQrEFroA.gif
+    │   ├── 09wqCpAfeQJTtqSMwKrLqRh7Lq0.gif
+    │   └── ... (icônes et logos PNG)
+    ├── fonts\                     # Polices typographiques (Caprasimo, JetBrains Mono, Inter, Barcode)
     └── js\                        # Modules ESM React & Framer Motion hydratés en local
 ```
+
+---
 
 ## 🚀 Lancement Rapide
 
@@ -36,8 +63,11 @@ Puis ouvrez votre navigateur sur [http://localhost:3000](http://localhost:3000).
 python -m http.server 3000
 ```
 
-## ✨ Caractéristiques de la copie
-- **Zéro dépendance CDN externe** : Toutes les polices, images 3D, icônes et scripts s'exécutent en local.
-- **Animations 3D préservées** : Formes géométriques en rotation, micro-interactions, typographie fidèle.
-- **Responsive Design** : Adapté aux écrans mobiles, tablettes et ordinateurs de bureau.
-- **Navigation et Sections** : Services, Formations, Expériences, Coordonnées, Modalités de contact.
+---
+
+## ✨ Points Clés & Fonctionnalités
+- **Formations Spécialisées** : Formations en Intelligence Artificielle (IA), Programmation (React, Python, Flutter) et Automatisation de workflows.
+- **Zéro dépendance CDN externe** : Toutes les polices, GIFs animés 3D, icônes et scripts s'exécutent en local.
+- **Animations 3D préservées** : Formes géométriques en rotation continue sans perte de fluidité.
+- **Menu Interactif** : Déroulement au survol ET au clic/tap avec navigation fluide vers les sections.
+- **Responsive Design** : Adapté aux écrans mobiles, tablettes, ordinateurs portables et grands écrans.
