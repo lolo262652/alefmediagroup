@@ -1,0 +1,19 @@
+{
+  "name": "alefmediagroup",
+  "version": "1.0.0",
+  "description": "Copie autonome à l'identique du site Alef Media Group (https://www.alefmediagroup.com/)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "preview": "node server.js"
+  },
+  "keywords": [
+    "alefmediagroup",
+    "framer",
+    "clone",
+    "react"
+  ],
+  "author": "Alef Media Group",
+  "license": "ISC"
+}
